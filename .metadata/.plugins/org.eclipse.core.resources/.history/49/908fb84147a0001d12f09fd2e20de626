@@ -1,0 +1,28 @@
+package ArrayPrograms;
+
+public class FreqencyArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    int[] a = { 2, 3, 3, 2, 1 };
+		
+		int freq[]=new int[a.length];
+		
+		for(int count:a)
+		{
+			freq[count]++;
+			//System.out.println(freq[count]);
+			
+		}
+		
+		//to find all frequency
+		for(int i=0;i<freq.length;i++)
+		{
+			if(freq[i]>0)
+			{
+				System.out.println(i +" "+freq[i]);
+			}
+		}
+	}
+
+}

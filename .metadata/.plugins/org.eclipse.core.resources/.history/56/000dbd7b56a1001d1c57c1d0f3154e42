@@ -1,0 +1,35 @@
+package Strings;
+
+public class StringEqualcomapre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="mohdamer";
+		String s2="mohdamer";
+		int count=0;
+		char[] c1 = s1.toCharArray();
+		char[] c2 = s2.toCharArray();
+		for(int i=0;i<c1.length;i++)
+		{
+			for(int j=0;j<c1.length;j++)
+			{
+				if(c1[i]!=c2[j])
+				{
+					count++;
+					System.out.println(count);
+				}
+				else
+				{
+					//System.out.println(" equal");
+				}
+			}
+			
+		}
+		if(count==0)
+		{
+			System.out.println("equal");
+		}
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package Strings;
+
+public class Frequency {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="how are you";
+
+char ch[]=s.toCharArray();
+int count=0;
+
+char freq[]=new char[ch.length];
+
+for(char res:ch)
+{
+	freq[count]++;
+}
+
+for(int i=0;i<ch.length;i++)
+{
+	if(freq[i]>1)
+	{
+		System.out.println(freq[i]+ " "+i);
+	}
+}
+	}
+
+}

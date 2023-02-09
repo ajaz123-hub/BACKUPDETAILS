@@ -1,0 +1,12 @@
+package java8;
+
+public class Check {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="   Mohd    Amer  khan    ";
+
+System.out.println(s.trim());
+	}
+
+}

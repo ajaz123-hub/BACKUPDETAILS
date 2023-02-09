@@ -1,0 +1,34 @@
+package java8;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a[]= {1,0,1,0,1,0};
+int b[]=new int [a.length];
+
+int count=0;
+int count2=0;
+for(int i=0;i<a.length;i++)
+{
+	if(a[i]==0)
+	{
+		b[i]=a[i];
+		count++;
+	}
+}
+for(int i=0;i<a.length;i++)
+{
+	if(a[i]==1)
+	{
+		b[count++]=a[i];
+	}
+}
+
+for(int i=0;i<b.length;i++)
+{
+	System.out.println(b[i]);
+}
+	}
+
+}

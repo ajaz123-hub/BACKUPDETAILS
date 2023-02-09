@@ -1,0 +1,29 @@
+package ArrayPrograms;
+
+import java.util.Arrays;
+
+public class RototaArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {7,2,6,8,1};
+		int i,j, k=0;
+		int count=0;
+	int start=1; 
+	int end=5;
+		//2,6,8,1
+		while(start<end)
+		{
+			int temp=a[0];//7
+		for(i=0;i<a.length-1;i++)
+		{
+			
+		a[i]=a[i+1];
+		//count++;
+		}
+		a[i]=temp;
+		}
+		System.out.println(Arrays.toString(a));
+	}
+
+}

@@ -1,0 +1,52 @@
+package ArrayPrograms;
+import java.lang.Math;
+public class differnce {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a[]= {4,3,7,8};
+int tar=6;
+int sum=0;
+int differnece=a[0]-tar;
+int total=0;
+//int min=a[0];
+int smallest = a[0];
+
+for (int j = 1; j < a.length; j++) {
+  // compare all elements present in array with smallest
+  // assign smallest value to small
+	
+ System.out.println(a[j]-tar);
+  //System.out.println(smallest);
+  
+
+}
+
+
+for(int i=1;i<a.length;i++)
+{
+	total=Math.min(differnece, a[i]);
+	sum=a[i];
+	
+	//System.out.println(total);
+
+
+		
+}
+System.out.println(sum);
+
+
+
+
+//int min=a[0];
+//
+//for(int i=1;i<a.length;i++)
+//{
+//	if(min>a[i])
+//	{
+//		min=a[i];
+//	}
+//}
+	}
+
+}
